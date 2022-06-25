@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="quiz" id="quiz">
+
+        <div class="quiz-header" id="header">
+            <!-- заголовок вопроса -->
+            <h2 class="title">Title - Frage</h2>
+
+            <!-- результаты викторины -->
+            <h2 class="title">%title%</h2>
+            <h3 class="summary">%message%</h3>
+            <p class="result">%result%</p>
+        </div>
+
+        <ul class="quiz-list" id="list">
+            <li>
+                <label>
+                    <input type="radio" class="answer" name="answer">
+                    <span>Antwort</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" class="answer" name="answer">
+                    <span>Antwort</span>
+                </label>
+            </li>
+            <li>
+
+        </ul>
+
+        <button class="quiz-submit submit" id="submit">Klicken</button>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
