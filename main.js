@@ -119,10 +119,10 @@ function showResult() {
 
         // варианты заголовков и текста
         if (score === questions.length) {
-            title = '!!!Glückwunsch!!!' ;
+            title = 'Glückwunsch!' ;
             message = 'Sie haben alle Fragen richtig beantwortet!';
         } else if (score * 100 / questions.length >= 50) {
-            title = '!!!Gutes Ergebnis!!!';
+            title = 'Gutes Ergebnis!';
             message = 'Sie haben mehr als die Hälfte der richtigen Antworten';
         } else {
             title = 'Versuchen Sie es noch einmal';
